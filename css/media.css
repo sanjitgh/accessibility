@@ -1,0 +1,28 @@
+/* container */
+@media screen and (max-width: 1440px) and (min-width:1280px) {
+    .container {
+      max-width: 1200px;
+    }
+  }
+@media screen and (max-width:7680px) and (min-width:1441px) {
+    .container{
+        max-width: 1320px;
+    }
+}
+/* ------------------------------ */
+/* mobile device */
+@media screen and (max-width: 575px) {
+  .logo {
+    font-size: 1.2rem;
+  }
+  header ul {
+    column-gap: 12px;
+  }
+  header ul li a {
+    width: 35px;
+    height: 35px;
+  }
+  header ul a i {
+    font-size: 1.2rem;
+  }
+}
