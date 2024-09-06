@@ -147,7 +147,7 @@ header ul a i {
   margin-bottom: 2rem;
 }
 
-.postdocs_content a {
+.personal_website_link {
   color: var(--titleColor);
   text-decoration: none;
   font-size: 1rem;
@@ -155,7 +155,7 @@ header ul a i {
   position: relative;
   padding-bottom: 10px;
 }
-.postdocs_content a::after {
+.personal_website_link::after {
   position: absolute;
   content: "";
   background: var(--titleColor);
@@ -169,4 +169,36 @@ header ul a i {
 }
 .postdocs_img_position {
   left: -120px;
+}
+
+/* phd student style */
+.phd {
+  padding: 120px 0;
+}
+.single_student_card h3 {
+  font-weight: 400;
+  font-size: 1.6rem;
+  margin: 10px 0;
+}
+
+.phd .owl-nav {
+  position: absolute;
+  bottom: -70px;
+  right: 0;
+  display: flex;
+  column-gap: 15px;
+}
+
+.phd .owl-nav button {
+  background: var(--titleColor) !important;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  color: white !important;
+  border-radius: 100px;
+  font-size: 22px !important;
+}
+
+.phd .owl-carousel .owl-stage-outer {
+  padding-bottom: 10px;
 }
