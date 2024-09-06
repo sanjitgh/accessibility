@@ -202,3 +202,45 @@ header ul a i {
 .phd .owl-carousel .owl-stage-outer {
   padding-bottom: 10px;
 }
+
+/* Publications style */
+
+.publications .section_title h2::after{
+  display: none;
+}
+.publication_content{
+    max-width: 700px;
+}
+
+.publication_content h3{
+  font-size: 2rem;
+  line-height: 45px;
+}
+.publication_content p{
+  margin: 20px 0;
+}
+.publication_content_one{
+  margin-left: 60px;
+}
+.cusotm_row_gap{
+  row-gap: 100px;
+}
+
+.btn_view{
+  background: transparent;
+  border:1px solid var(--titleColor);
+  padding:12px 25px;
+  color: var(--titleColor);
+  font-size: 1.1rem;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin: 70px auto 0;
+  transition: all 0.125s ease-out;
+}
+
+.btn_view:hover{
+  transform: scale(0.95);
+}
