@@ -48,4 +48,11 @@
     font-size: 2.5rem;
     line-height: 4rem;
   }
+  .our_people h1 {
+    font-size: 3.5rem;
+    margin-bottom: 50px;
+  }
+  .our_people h2 {
+    font-size: 2rem;
+  }
 }
