@@ -1,4 +1,4 @@
-// carousel
+// PHD studen carousel 
 $(document).ready(function () {
   $(".phd_student_carousel").owlCarousel({
     items: 4,
@@ -27,5 +27,21 @@ $(document).ready(function () {
         items: 4,
       },
     },
+  });
+});
+
+
+// Recent publication carousel
+$(document).ready(function () {
+  $(".recent_carousel").owlCarousel({
+    items: 1,
+    loop: true,
+    dots: false,
+    nav: true,
+    margin:20,
+    navText: [
+      '<i class="fa-solid fa-chevron-left"></i>',
+      '<i class="fa-solid fa-chevron-right"></i>',
+    ],
   });
 });
