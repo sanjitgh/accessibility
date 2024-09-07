@@ -12,6 +12,11 @@
 /* ------------------------------ */
 
 /* table device */
+@media screen and (max-width: 1024px) and (min-width:1024px){
+  .banner {
+    min-height: 40vh;
+}
+}
 @media screen and (max-width: 1024px) {
   .banner_content h1 {
     font-size: 3.5rem;
@@ -29,6 +34,14 @@
   .rec_content h2 {
     font-size: 2rem;
   }
+  .teach_card h1 {
+    font-size: 3rem;
+    font-weight: 500;
+}
+  .teach_card h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
 }
 @media screen and (max-width: 991px) {
   .banner_content {
