@@ -452,6 +452,7 @@ header ul a i {
 /* footer style */
 footer {
   border-top: 2px solid #20252b7e;
+  overflow-x: hidden;
 }
 
 .primary_footer {
