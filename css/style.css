@@ -218,7 +218,8 @@ header ul a i {
 .publications .section_title h2::after,
 .recent .section_title h2::after,
 .academic .section_title h2::after,
-.teaching .section_title h2::after {
+.teaching .section_title h2::after,
+.work .section_title h2::after {
   display: none;
 }
 
@@ -381,4 +382,52 @@ header ul a i {
 .teach_card h1 {
   font-size: 4.2rem;
   font-weight: 500;
+}
+
+/* work style */
+.work_body {
+  margin-top: 100px;
+}
+
+.work .accordion-button:focus {
+  box-shadow: none;
+}
+
+.work .accordion-button:not(.collapsed) {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.work .accordion-item {
+  border: none;
+}
+
+.work .accordion-button {
+  padding: 0;
+  border-bottom: 2px solid #343d4689;
+}
+
+.acco_primary_title {
+  font-size: 3rem;
+  padding-bottom: 15px;
+}
+
+.work .accordion-item:last-of-type>.accordion-header .accordion-button.collapsed {
+  border-radius: 0;
+}
+
+.accordion_body_title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 30px 0px 5px;
+}
+
+.accordion_body_text {
+  font-size: 1.25rem;
+}
+
+.accordion_body_top_header {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 30px 0px 20px;
 }

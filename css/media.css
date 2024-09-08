@@ -4,113 +4,159 @@
     max-width: 1200px;
   }
 }
+
 @media screen and (max-width: 7680px) and (min-width: 1441px) {
   .container {
     max-width: 1320px;
   }
 }
+
 /* ------------------------------ */
 
 /* table device */
-@media screen and (max-width: 1024px) and (min-width:1024px){
+@media screen and (max-width: 1024px) and (min-width:1024px) {
   .banner {
     min-height: 40vh;
+  }
 }
-}
+
 @media screen and (max-width: 1024px) {
   .banner_content h1 {
     font-size: 3.5rem;
     line-height: 5rem;
   }
+
   .postdocs_img_position {
     left: -50px;
   }
+
   .secound_row_position {
     top: -40px;
   }
+
   .publication_content_one {
     margin-left: 0px;
   }
+
   .rec_content h2 {
     font-size: 2rem;
   }
+
   .teach_card h1 {
     font-size: 3rem;
     font-weight: 500;
-}
+  }
+
   .teach_card h2 {
     font-size: 1.5rem;
     font-weight: 700;
+  }
 }
-}
+
 @media screen and (max-width: 991px) {
   .banner_content {
     text-align: center;
   }
+
   .banner_img {
     text-align: center;
   }
+
   .banner {
     margin-top: 50px;
   }
+
   .secound_row_position {
     top: 80px;
   }
+
   .postdocs_img_position {
     left: 0;
   }
-  .mobile_img_margin{
+
+  .mobile_img_margin {
     margin-bottom: 30px;
   }
 }
+
 /* mobile device */
 @media screen and (max-width: 575px) {
   .logo {
     font-size: 1.2rem;
   }
+
   header ul {
     column-gap: 12px;
   }
+
   header ul li a {
     width: 30px;
     height: 30px;
   }
+
   header ul a i {
     font-size: 1rem;
   }
+
   .banner_content h1 {
     font-size: 2.5rem;
     line-height: 4rem;
   }
+
   .our_people h1 {
     font-size: 3.5rem;
     margin-bottom: 50px;
   }
+
   .section_title h2 {
     font-size: 2.8rem;
   }
+
   .postdocs_content h3 {
     font-size: 2rem;
   }
+
   .postdocs_content h4 {
     font-size: 1.2rem;
     margin: 10px 0;
   }
+
   .publication_content h3 {
     font-size: 1.8rem;
     line-height: 40px;
   }
+
   .padding_left_right {
     padding: 0;
-}
-.recent_carousel .owl-nav{
-  display: none !important;
-}
-.mobile_img_margin{
-  margin-bottom: 30px;
-}
-.rec_content h2 {
-  font-size: 1.2rem;
-  margin-bottom: 15px;
-}
+  }
+
+  .recent_carousel .owl-nav {
+    display: none !important;
+  }
+
+  .mobile_img_margin {
+    margin-bottom: 30px;
+  }
+
+  .rec_content h2 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+  }
+
+  .work_icon_hide {
+    display: none;
+  }
+
+  .acco_primary_title {
+    font-size: 2rem;
+    padding-bottom: 15px;
+  }
+
+  .accordion_body_top_header {
+    font-size: 1.5rem;
+  }
+
+  .accordion_body_title {
+    font-size: 1.5rem;
+  }
 }
