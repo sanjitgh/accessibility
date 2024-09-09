@@ -211,7 +211,7 @@ header ul a i {
 .phd .owl-nav {
   position: absolute;
   bottom: -70px;
-  right: 0;
+  right: 8px;
   display: flex;
   column-gap: 15px;
 }
