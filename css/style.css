@@ -236,7 +236,9 @@ header ul a i {
 .recent .section_title h2::after,
 .academic .section_title h2::after,
 .teaching .section_title h2::after,
-.work .section_title h2::after {
+.work .section_title h2::after,
+.projects .section_title h2::after
+ {
   display: none;
 }
 

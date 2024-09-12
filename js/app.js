@@ -45,3 +45,25 @@ $(document).ready(function () {
     ],
   });
 });
+
+
+// accordion Js
+function toggleAccordion(element) {
+  const parentItem = element.parentElement;
+  const isActive = parentItem.querySelector('.acc-body').classList.contains('open');
+
+  // Close all accordion items
+  document.querySelectorAll('.acc-body').forEach((body) => {
+    body.classList.remove('open');
+  });
+
+  document.querySelectorAll('.accordion-title').forEach((title) => {
+    title.classList.remove('open');
+  });
+
+  // If the clicked item is not active, activate it
+  if (!isActive) {
+    parentItem.querySelector('.acc-body').classList.add('open');
+    parentItem.querySelector('.accordion-title').classList.add('open');
+  }
+}
