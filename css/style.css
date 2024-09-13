@@ -59,7 +59,7 @@ h6 {
 }
 
 section {
-  padding: 70px 0;
+  padding: 50px 0;
 }
 
 p {
@@ -73,7 +73,7 @@ header {
 }
 
 .logo {
-  color: #848e9d;
+  color: black;
   font-size: 1.5rem;
   font-weight: 700;
 }
@@ -135,7 +135,7 @@ header ul a i {
 .section_title h2 {
   font-size: 4rem;
   position: relative;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   padding-bottom: 5px;
 }
 
@@ -199,7 +199,7 @@ header ul a i {
 
 /* phd student style */
 .phd {
-  padding: 120px 0;
+  padding: 50px 0;
 }
 
 .single_student_card h3 {
@@ -320,7 +320,7 @@ header ul a i {
   position: absolute !important;
   top: 50%;
   transform: translateY(-50%);
-  left: 0;
+  left: -70px;
   background: transparent !important;
   width: 40px;
   height: 40px;
@@ -338,7 +338,7 @@ header ul a i {
   position: absolute !important;
   top: 50%;
   transform: translateY(-50%);
-  right: 0;
+  right: -70px;
   background: transparent !important;
   width: 40px;
   height: 40px;
@@ -405,7 +405,7 @@ header ul a i {
 
 /* work style */
 .work_body {
-  margin-top: 100px;
+  margin-top: 60px;
 }
 
 .work .accordion-button:focus {

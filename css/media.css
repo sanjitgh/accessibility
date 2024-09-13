@@ -3,6 +3,35 @@
   .container {
     max-width: 1200px;
   }
+
+  .phd .owl-carousel .owl-stage-outer {
+    padding-bottom: 10px;
+    height: 390px;
+  }
+
+  .phd .owl-item {
+    width: 260px !important;
+  }
+
+  .phd .owl-nav {
+
+    bottom: -40px;
+  }
+  .rec_content h2 {
+    font-size: 2.2rem;
+}
+.recent_carousel .owl-nav .owl-prev {
+  left: -40px;
+}
+.recent_carousel .owl-nav .owl-next {
+  right: -40px;
+}
+}
+
+@media screen and (max-width: 7680px) and (min-width: 1441px) {
+  .phd .owl-item {
+    width: 290px !important;
+  }
 }
 
 @media screen and (max-width: 7680px) and (min-width: 1441px) {
@@ -11,11 +40,6 @@
   }
 }
 
-@media screen and (max-width: 7680px) and (min-width: 991px) {
-  .phd .owl-item{
-    width: 290px !important;
-  }
-}
 
 /* ------------------------------ */
 
@@ -24,9 +48,10 @@
   .banner {
     min-height: 40vh;
   }
+
   .phd .owl-carousel .owl-stage-outer {
     height: 400px;
-}
+  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -113,8 +138,8 @@
   }
 
   .our_people h1 {
-    font-size: 3.5rem;
-    margin-bottom: 50px;
+    font-size: 3.3rem;
+    margin-bottom: 30px;
   }
 
   .section_title h2 {
@@ -122,7 +147,7 @@
   }
 
   .postdocs_content h3 {
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
 
   .postdocs_content h4 {
@@ -168,4 +193,7 @@
   .accordion_body_title {
     font-size: 1.5rem;
   }
+  .rec_content p {
+    font-size: 1rem;
+}
 }

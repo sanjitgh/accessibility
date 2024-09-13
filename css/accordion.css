@@ -125,4 +125,8 @@
     .acc-body p {
         font-size: 1rem;
     }
+    .accordion-title img.accordion-img {
+        width: 200px;
+        height: 100px;
+    }
 }
