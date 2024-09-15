@@ -137,7 +137,7 @@ header ul a i {
 .section_title h2 {
   font-size: 4rem;
   position: relative;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   padding-bottom: 5px;
 }
 
@@ -389,11 +389,11 @@ header ul a i {
 
 /* Teaching style */
 .teaching .accordion-button::after {
-  background-image: url(/images/plus.png);
+  background-image: url(../images/plus.png);
 }
 
 .teaching .accordion-button:not(.collapsed)::after {
-  background-image: url(/images/minus-sign.png);
+  background-image: url(../images/minus-sign.png);
 }
 
 .custom_border {
