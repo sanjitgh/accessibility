@@ -384,13 +384,34 @@ header ul a i {
 }
 
 /* Teaching style */
-.teach_card {
-  border-bottom: 1px solid #343D46;
-  padding: 30px 0;
+.teaching .accordion-button::after {
+  background-image: url(/images/plus.png);
 }
-
-.teach_card:first-child {
-  border-top: 1px solid #343D46;
+.teaching .accordion-button:not(.collapsed)::after {
+  background-image: url(/images/minus-sign.png);
+}
+.custom_border{
+  border-top: 1px solid;
+  padding: 20px 0;
+}
+.custom_border:last-child{
+  border-bottom: 1px solid black;
+}
+.teaching .section_title{
+  margin-bottom: 50px;
+}
+.teach_accor_image img{
+  max-height: 140px;
+}
+.teaching .accordion-button:not(.collapsed) {
+  background-color: transparent;
+  box-shadow: none;
+}
+.teaching .accordion-item:last-of-type>.accordion-header .accordion-button.collapsed,
+.accordion-item:first-of-type>.accordion-header .accordion-button
+{
+  border-radius: 0;
+  padding: 0;
 }
 
 .teach_card h2 {
