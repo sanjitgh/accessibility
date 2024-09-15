@@ -1,11 +1,13 @@
-html{
+html {
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
+
 * {
   margin: 0;
   padding: 0;
 }
+
 /* Scrollbar Styling */
 ::-webkit-scrollbar {
   width: 8px;
@@ -17,7 +19,7 @@ html{
 
 ::-webkit-scrollbar-thumb {
   border-radius: 111px;
-  background: var(--titleColor); 
+  background: var(--titleColor);
 }
 
 body {
@@ -237,8 +239,10 @@ header ul a i {
 .academic .section_title h2::after,
 .teaching .section_title h2::after,
 .work .section_title h2::after,
-.projects .section_title h2::after
- {
+.projects .section_title h2::after,
+.news .section_title h2::after
+
+{
   display: none;
 }
 
@@ -387,29 +391,35 @@ header ul a i {
 .teaching .accordion-button::after {
   background-image: url(/images/plus.png);
 }
+
 .teaching .accordion-button:not(.collapsed)::after {
   background-image: url(/images/minus-sign.png);
 }
-.custom_border{
+
+.custom_border {
   border-top: 1px solid;
   padding: 20px 0;
 }
-.custom_border:last-child{
+
+.custom_border:last-child {
   border-bottom: 1px solid black;
 }
-.teaching .section_title{
+
+.teaching .section_title {
   margin-bottom: 50px;
 }
-.teach_accor_image img{
+
+.teach_accor_image img {
   max-height: 140px;
 }
+
 .teaching .accordion-button:not(.collapsed) {
   background-color: transparent;
   box-shadow: none;
 }
+
 .teaching .accordion-item:last-of-type>.accordion-header .accordion-button.collapsed,
-.accordion-item:first-of-type>.accordion-header .accordion-button
-{
+.accordion-item:first-of-type>.accordion-header .accordion-button {
   border-radius: 0;
   padding: 0;
 }
@@ -565,8 +575,36 @@ footer {
   margin-top: 20px;
 }
 
-.secondary_footer{
+.secondary_footer {
   padding: 30px 0;
   border-top: 1px solid #20252b7e;
   font-size: 1.25rem;
+}
+
+/* Recent News style */
+.news_card{
+  padding: 10px 20px;
+  border: 1px solid var(--textColor);
+  margin-bottom: 30px;
+}
+.news_card span{
+  display: block;
+  text-align: end;
+  color: var(--textColor);
+  font-family: "Nunito", sans-serif;
+}
+.news_card p{
+  font-size: 1.4rem;
+  color: var(--titleColor);
+  margin: 10px 0px 20px;
+}
+
+.news_card a{
+  text-decoration: none;
+  color: var(--titleColor);
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  font-weight: 700;
+  text-transform: capitalize;
 }
