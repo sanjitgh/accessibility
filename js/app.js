@@ -67,3 +67,7 @@ function toggleAccordion(element) {
     parentItem.querySelector('.accordion-title').classList.add('open');
   }
 }
+
+
+// wow Animation
+new WOW().init();
