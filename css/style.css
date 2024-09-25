@@ -1,6 +1,7 @@
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
+  scroll-snap-type: y mandatory ;
 }
 
 * {
@@ -61,7 +62,9 @@ h6 {
 }
 
 section {
-  padding: 50px 0;
+  padding-bottom: 80px;
+  scroll-snap-align: end;
+  scroll-snap-stop: always;
 }
 
 p {
@@ -141,7 +144,7 @@ header ul a:hover i {
 /* out people style */
 .our_people h1 {
   font-size: 5.25rem;
-  margin-bottom: 100px;
+  margin-bottom: 66px;
   font-weight: 500;
 }
 
@@ -234,7 +237,7 @@ header ul a:hover i {
 
 /* phd student style */
 .phd {
-  padding: 50px 0;
+  margin-bottom: 80px;
 }
 
 .single_student_card h3 {
@@ -531,6 +534,8 @@ header ul a:hover i {
 footer {
   border-top: 2px solid #20252b7e;
   overflow-x: hidden;
+  scroll-snap-align: end;
+  scroll-snap-stop: always;
 }
 
 .primary_footer {
