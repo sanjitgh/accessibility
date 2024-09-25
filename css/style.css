@@ -246,7 +246,7 @@ header ul a:hover i {
 .phd .owl-nav {
   position: absolute;
   bottom: -70px;
-  right: 8px;
+  right: 30px;
   display: flex;
   column-gap: 15px;
 }
@@ -261,14 +261,14 @@ header ul a:hover i {
   font-size: 22px !important;
 }
 
-.phd .owl-carousel .owl-stage-outer {
-  padding-bottom: 10px;
-}
-
 .phd .owl-nav button:hover {
   color: var(--titleColor) !important;
   border: 1px solid var(--titleColor);
   background-color: transparent !important;
+}
+
+.phd .owl-carousel .owl-stage-outer {
+  height: 515px;
 }
 
 /* Publications style */
@@ -368,7 +368,7 @@ header ul a:hover i {
   border-radius: 100px;
   color: var(--titleColor) !important;
   font-size: 20px !important;
-  transition: background 0.2s ease-out;
+  transition: all 0.3s ease-out;
 }
 
 .recent_carousel .owl-nav {
@@ -386,7 +386,7 @@ header ul a:hover i {
   border-radius: 100px;
   color: var(--titleColor) !important;
   font-size: 20px !important;
-  transition: background 0.2s ease-out;
+  transition: all 0.3s ease-out;
 }
 
 .recent_carousel .owl-nav .owl-next:hover,
