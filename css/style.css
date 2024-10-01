@@ -1,7 +1,6 @@
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
-  scroll-snap-type: y mandatory ;
 }
 
 * {
@@ -63,8 +62,6 @@ h6 {
 
 section {
   padding-bottom: 80px;
-  scroll-snap-align: end;
-  scroll-snap-stop: always;
 }
 
 p {
@@ -138,7 +135,25 @@ header ul a:hover i {
 }
 
 .banner_img {
-  text-align: end;
+  text-align: center;
+  margin: auto;
+  animation: example .7s ease-out;
+
+}
+
+@keyframes example {
+  0% {
+    opacity: 0;
+    width: 50%;
+    transform: translate(200px, 600px);
+
+  }
+
+  100% {
+    opacity: 1;
+    width: 100%;
+    transform: translate(0px, 0px);
+  }
 }
 
 /* out people style */
@@ -169,13 +184,14 @@ header ul a:hover i {
   padding: 0;
 }
 
-.portfolio-link{
+.portfolio-link {
   display: flex;
   justify-content: center;
   gap: 5px;
   align-items: center;
 }
-.portfolio-link a{
+
+.portfolio-link a {
   text-align: center;
   text-transform: capitalize;
   font-size: 1.125rem;
@@ -211,8 +227,7 @@ header ul a:hover i {
   padding-bottom: 10px;
 }
 
-.personal_website_link::after
-{
+.personal_website_link::after {
   position: absolute;
   content: "";
   background: var(--titleColor);
@@ -327,6 +342,15 @@ header ul a:hover i {
 }
 
 /* Most recent style */
+/* .recent,
+.teaching,
+.projects,
+.our_people,
+.phd
+
+{
+  min-height: 100vh;
+} */
 .rec_content ul {
   display: flex;
 }
@@ -533,9 +557,7 @@ header ul a:hover i {
 /* footer style */
 footer {
   border-top: 2px solid #20252b7e;
-  overflow-x: hidden;
-  scroll-snap-align: end;
-  scroll-snap-stop: always;
+  overflow: hidden;
 }
 
 .primary_footer {
