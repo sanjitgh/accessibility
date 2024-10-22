@@ -456,9 +456,15 @@ header ul a:hover i {
 /* Teaching style */
 .teaching .accordion-button::after {
   background-image: url(../images/plus.png) !important;
+    background: transparent;
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 100px;
 }
-
 .teaching .accordion-button:not(.collapsed)::after {
+  background-color: black;
   background-image: url(../images/minus-sign.png) !important
 }
 
