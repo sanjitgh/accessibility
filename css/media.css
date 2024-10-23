@@ -128,16 +128,6 @@
   }
 }
 
-/* @media screen and (max-width:768px) {
-  .recent_carousel .owl-nav .owl-prev {
-    left: -30px;
-  }
-
-  .recent_carousel .owl-nav .owl-next {
-    right: -30px;
-
-  }
-} */
 
 /* mobile device */
 @media screen and (max-width: 575px) {
