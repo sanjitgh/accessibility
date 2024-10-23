@@ -65,7 +65,5 @@ function toggleAccordion(element) {
     parentItem.querySelector('.accordion-title').classList.add('open');
   }
 }
-// wow Animation
-new WOW().init();
-// rellax effect
-var rellax = new Rellax('.rellax');
+// aos
+AOS.init();
