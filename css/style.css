@@ -24,6 +24,7 @@ html {
 
 body {
   background-color: #ffffff;
+  overflow: hidden;
 }
 
 ::selection {
@@ -75,7 +76,7 @@ header {
   min-height: 100vh;
   background: url(../images/banner.webp) ;
   background-repeat: no-repeat;
-  background-position: left center;
+  background-position: center;
   background-size: cover;
 }
 
