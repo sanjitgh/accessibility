@@ -13,4 +13,4 @@ Accessibility Lab is your go-to platform for educational resources, offering a c
 
 
 ### 5.Live link : 
-https://react-cricket-team.netlify.app
+https://sanjitgh.github.io/accessibility/
