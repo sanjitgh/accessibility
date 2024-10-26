@@ -9,9 +9,7 @@
   }
 
   .phd .owl-nav {
-
     bottom: -20px;
-
   }
 
   .rec_content h2 {
@@ -49,7 +47,7 @@
 /* table device */
 @media screen and (max-width: 1024px) and (min-width:1024px) {
   .banner {
-    min-height: 40vh;
+    min-height: 75vh;
   }
 
   .phd .owl-carousel .owl-stage-outer {
@@ -58,8 +56,28 @@
 }
 
 @media screen and (max-width: 1024px) {
-  header {
-    background-position: 60%;
+  .banner_content {
+    text-align: center;
+  }
+
+  @keyframes animationBg {
+    from {
+      background-position: -300px -200px;
+      opacity: 0;
+    }
+
+    to {
+      background-position: -5000px !important;
+      opacity: 1;
+    }
+  }
+
+  .banner_content h1 {
+    background: #ffffff99;
+    backdrop-filter: blur(8px);
+    position: absolute;
+    left: 0;
+    right: 0;
   }
 
   .banner_content h1 {
@@ -95,12 +113,17 @@
 }
 
 @media screen and (max-width: 991px) {
-  .banner_content {
-    text-align: center;
-  }
 
-  header {
-    min-height: auto;
+  @keyframes animationBg {
+    from {
+      background-position: -300px -200px;
+      opacity: 0;
+    }
+
+    to {
+      background-position: -500px;
+      opacity: 1;
+    }
   }
 
   .banner {
@@ -118,6 +141,7 @@
   .mobile_img_margin {
     margin-bottom: 30px;
   }
+
   .recent_carousel .owl-nav .owl-prev {
     left: -30px;
   }
@@ -133,6 +157,22 @@
 @media screen and (max-width: 575px) {
   .logo {
     font-size: 1.2rem;
+  }
+
+  header {
+    min-height: 100vh;
+  }
+
+  @keyframes animationBg {
+    from {
+      background-position: -300px -200px;
+      opacity: 0;
+    }
+
+    to {
+      background-position: 55%;
+      opacity: 1;
+    }
   }
 
   header ul {
